@@ -2,7 +2,7 @@ import React from 'react'
 import classes from './index.module.css'
 import RoundButton from '../RoundButton'
 
-const FormRadioButtons = ({ handleChange, options, title, value }) => {
+const RadioButtons = ({ handleChange, options, title, value }) => {
 
   return (
     <div className={classes.input_wrapper}>
@@ -23,4 +23,4 @@ const FormRadioButtons = ({ handleChange, options, title, value }) => {
   )
 }
 
-export default FormRadioButtons
+export default RadioButtons

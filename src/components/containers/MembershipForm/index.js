@@ -6,7 +6,7 @@ import {
   Venus,
   VenusWhite,
 } from '../../../assets/images'
-import { FormRadioButtons, Input, Button, SpaceDivider } from '../../ui'
+import { RadioButtons, Input, Button, SpaceDivider } from '../../ui'
 import RadioOption from '../../../models/RadioOption'
 import classes from './index.module.css'
 import useStyles from '../../styles/global'
@@ -57,7 +57,7 @@ const MembershipForm = () => {
               })
             }
           />
-          <FormRadioButtons
+          <RadioButtons
             title="Gender"
             options={gender_options}
             value={formState.gender}
@@ -109,7 +109,7 @@ const MembershipForm = () => {
               })
             }
           />
-          <FormRadioButtons
+          <RadioButtons
             title="Membership"
             options={membership_options}
             onSelect={(e) => console.log(e)}

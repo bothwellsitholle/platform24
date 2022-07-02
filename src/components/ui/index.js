@@ -1,4 +1,4 @@
-import FormRadioButtons from './RadioButtons'
+import RadioButtons from './RadioButtons'
 import Input from './Input'
 import Button from './Button'
 import SpaceDivider from './SpaceDivider'
@@ -7,4 +7,4 @@ import RoundButton from './RoundButton'
 import Arrow from './Arrow'
 
 
-export {FormRadioButtons, Input, Button, SpaceDivider, RoundButton, Avatar, Arrow }
+export {RadioButtons, Input, Button, SpaceDivider, RoundButton, Avatar, Arrow }
