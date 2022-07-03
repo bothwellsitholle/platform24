@@ -1,7 +1,7 @@
 .round_btn_main_wrapper {
   display: flex;
   align-items: center;
-  margin-top: 5px
+  margin-top: 10px
 }
 
 .round_btn_main_wrapper:hover {

@@ -1,5 +1,7 @@
 * {
   margin: 0;
+  max-width: 100%;
+  overflow-x: hidden;
 }
 
 body {
@@ -12,6 +14,20 @@ body {
 button:hover {
   opacity: 0.5;
 }
+
+:focus,
+.focus-visible:focus:not(:focus-visible) {
+  outline: 0;
+  box-shadow: none !important;
+}
+
+.btn:focus {
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+
+
 
 input[type=number]::-webkit-inner-spin-button, 
 input[type=number]::-webkit-outer-spin-button { 

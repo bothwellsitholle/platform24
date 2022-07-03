@@ -1,3 +1,5 @@
 .avatar_main_wrapper {
-    margin-top: 100px;
+    /* margin-top: 100px; */
+    align-content: center;
+    align-items: center;
 }

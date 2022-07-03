@@ -11,8 +11,8 @@ const Welcome = ({ showBlogHandler }) => {
       className={classes.left_content_wrapper}
       style={{ backgroundColor: Theme.yellow }}
     >
-      <Avatar />
-      <SpaceDivider marginVertical={100} />
+      <div style={{position: 'static'}}><Avatar /></div>
+      <SpaceDivider marginVertical={90} />
       <div className={classes.left_panel_content}>
         <h1 className={styles.title}>Front-end challenge!</h1>
         <p className={styles.subtitle}>

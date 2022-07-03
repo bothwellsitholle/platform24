@@ -8,11 +8,11 @@ import { Theme } from './Theme'
 const button = {
   width: '100%',
   textTransform: 'uppercase',
-  height: 40,
+  height: 45,
   borderRadius: 4,
   borderWidth: 0,
   marginLeft: 20,
-  marginTop: 5,
+  marginTop: 10,
   marginBottom: 5,
   cursor: 'pointer',
   '&:hover': {
@@ -24,11 +24,11 @@ const useStyles = makeStyles((theme) => ({
   button: {
     width: '100%',
     textTransform: 'uppercase',
-    height: 40,
+    height: 50,
     borderRadius: 4,
     borderWidth: 0,
     marginLeft: 20,
-    marginTop: 5,
+    marginTop: 10,
     marginBottom: 5,
     cursor: 'pointer',
     '&:hover': {
@@ -42,22 +42,24 @@ const useStyles = makeStyles((theme) => ({
   buttonContainer: {
     display: 'flex',
     flexDirection: 'column',
-    paddingTop: 55,
-    paddingBottom: 55,
+    paddingTop: 70,
+    paddingBottom: 40,
     alignItems: 'center',
     justifyContent: 'center',
     [theme.breakpoints.up('sm')]: {
+      paddingTop: 20,
       display: 'flex',
       flexDirection: 'row',
       alignItems: 'center',
       justifyContent: 'flex-end',
+      marginTop: 20,
     },
   },
 
   primaryBtn: {
     ...button,
     [theme.breakpoints.up('sm')]: {
-      width: 130,
+      width: 150,
     },
     backgroundColor: Theme.blueGreen,
     color: Theme.white,
@@ -66,7 +68,7 @@ const useStyles = makeStyles((theme) => ({
   secondaryBtn: {
     ...button,
     [theme.breakpoints.up('sm')]: {
-      width: 130,
+      width: 150,
     },
     backgroundColor: Theme.paleGrey,
   },
