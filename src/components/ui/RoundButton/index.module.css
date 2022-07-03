@@ -1,7 +1,7 @@
 .round_btn_main_wrapper {
   display: flex;
   align-items: center;
-  margin-top: 10px
+  margin-top: 5px
 }
 
 .round_btn_main_wrapper:hover {
@@ -11,8 +11,8 @@
 
 
 .active_round_btn {
-  width: 50px;
-  height: 50px;
+  width: 40px;
+  height: 40px;
   padding-top: 3px;
   border-radius: 50%;
   background-color: #cad7dd;
@@ -24,8 +24,8 @@
 }
 
 .inactive_round_btn {
-  width: 50px;
-  height: 50px;
+  width: 40px;
+  height: 40px;
   padding-top: 3px;
   border-radius: 50%;
   background-color: #f5f8f9;

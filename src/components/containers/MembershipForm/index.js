@@ -12,6 +12,7 @@ import classes from './index.module.css'
 import useStyles from '../../styles/global'
 import SlideIn from '../../animation'
 
+
 const gender_options = [
   new RadioOption('Female', <Venus />, <VenusWhite />),
   new RadioOption('Male', <Venus />, <VenusWhite />),
@@ -91,6 +92,7 @@ const MembershipForm = () => {
           />
           <Input
             placeholder="+91 98765 43210"
+            type={"number"}
             title="Mobile"
             value={formState.mobile}
             handleChange={(e) =>

@@ -12,7 +12,7 @@ const RadioButtons = ({ handleChange, options, title, value }) => {
           <RoundButton
             key={option.name}
             isChecked={value === option.name}
-            onClick={() => handleChange(option.name)}
+            onClickHandler={() => handleChange(option.name)}
             value={option.name}
           >
             {value === option.name ? option.checkedIcon : option.unCheckedIcon}

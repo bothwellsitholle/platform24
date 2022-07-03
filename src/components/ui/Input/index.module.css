@@ -1,5 +1,5 @@
-
 .input_wrapper {
+    border: none;
 }
 
 .input_wrapper > p {
@@ -23,6 +23,8 @@
     font-size: 16px;
 
 }
+
+
 
 .focused_input {
     background-color: white;

@@ -27,4 +27,6 @@ const Welcome = ({ showBlogHandler }) => {
   )
 }
 
+
+
 export default Welcome
